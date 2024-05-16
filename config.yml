@@ -1,5 +1,5 @@
-baseURL: "https://examplesite.com/"
-title: ExampleSite
+baseURL: "https://ating.dev/"
+title: ATing
 paginate: 5
 theme: PaperModX
 
@@ -9,18 +9,16 @@ buildFuture: false
 buildExpired: false
 pygmentsUseClasses: true
 
-googleAnalytics: UA-123-45
-
 minify:
     disableXML: true
     minifyOutput: true
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: ExampleSite
-    description: "ExampleSite description"
+    title: ATing
+    description: "Build cool stuff"
     keywords: [Blog, Portfolio, PaperModX]
-    author: Me
+    author: ATing
     # author: ["Me", "You"] # multiple authors
     images: ["<link or path of image for opengraph, twitter-cards>"]
     DateFormat: "January 2, 2006"
@@ -33,7 +31,7 @@ params:
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: false
     disableSpecial1stPost: false
-    disableScrollToTop: false
+    disableScrollToTop: true
     comments: false
     hidemeta: false
     hideSummary: false
